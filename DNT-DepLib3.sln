@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNT-DepLibTestApp3", "DNT-DepLibTestApp3\DNT-DepLibTestApp3.csproj", "{1599E272-A132-4ADC-B872-57B02AA2EF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNT-DepLib3", "DNT-DepLib3\DNT-DepLib3.csproj", "{667B994B-9AD0-4867-B11F-AED1CB9AF23F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DNT-DepLib2", "submodules\DNT-DepLib2\DNT-DepLib2\DNT-DepLib2.shproj", "{140C626E-1655-49A8-A799-58477E1FF2F6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DNT-DepLib1", "submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.shproj", "{C97DE7AF-F6A6-4874-B51A-B10007005048}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		submodules\DNT-DepLib2\DNT-DepLib2\DNT-DepLib2.projitems*{140c626e-1655-49a8-a799-58477e1ff2f6}*SharedItemsImports = 13
+		submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.projitems*{c97de7af-f6a6-4874-b51a-b10007005048}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1599E272-A132-4ADC-B872-57B02AA2EF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1599E272-A132-4ADC-B872-57B02AA2EF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1599E272-A132-4ADC-B872-57B02AA2EF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1599E272-A132-4ADC-B872-57B02AA2EF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667B994B-9AD0-4867-B11F-AED1CB9AF23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667B994B-9AD0-4867-B11F-AED1CB9AF23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667B994B-9AD0-4867-B11F-AED1CB9AF23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667B994B-9AD0-4867-B11F-AED1CB9AF23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3D1043E-A107-425D-A681-D1260AF20F85}
+	EndGlobalSection
+EndGlobal
