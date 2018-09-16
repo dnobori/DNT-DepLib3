@@ -6,6 +6,7 @@ namespace DNT_DepLibTestApp3
     {
         static void Main(string[] args)
         {
+            //
             Lib3.LibClass3.Hello();
         }
     }
